@@ -12,7 +12,7 @@ import { Component } from '@angular/core';
           My backend project, created in the third month of school, served as the foundation for InfestPro. It focused on building a robust backend, handling data efficiently, and preparing for more complex future projects.
         </p>
       </div>
-      <div>
+      <div class="mt-3">
         <img class="rounded-2xl border border-zinc-600" src="/Indextracker.png" alt="">
       </div>
     </div>
