@@ -9,7 +9,7 @@ import { RouterOutlet, RouterLink } from '@angular/router';
   imports: [RouterOutlet, RouterLink],
   template: `
   
-  <nav class="bg-zinc-700/30 text-white border-b-3 border-zinc-600 backdrop-blur-lg fixed top-0 w-screen">
+  <nav class="bg-zinc-700/30 text-white border-b-3 border-zinc-600 backdrop-blur-lg fixed top-0 w-screen z-10">
     <div class="flex justify-between">
       <a routerLink="/" class="text-2xl mt-2 mx-3 text-nowrap">Lars Schipper</a>
       

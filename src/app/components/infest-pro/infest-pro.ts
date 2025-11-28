@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   imports: [],
   template: `
     <div class="text-white text-2xl mb-5">
-            Infest Pro: 
+            Invest Pro: 
           </div>
           <p class="text-sm text-zinc-400 mb-3">
             InvestPro is the project I am currently working on. 
