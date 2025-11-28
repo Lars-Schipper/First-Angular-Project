@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   imports: [],
   standalone: true,
   template: `
-    <div class="grid grid-cols-2">
+    <div class="grid grid-cols-1 md:grid-cols-2">
       <div class="lg:me-3">
         <p class="text-2xl">
           Bootstrap
@@ -25,7 +25,7 @@ import { Component } from '@angular/core';
         </p>
       </div>
 
-      <div class="self-center">
+      <div class="self-center mt-3">
         <img class="rounded-2xl border-zinc-600 border" src="/bootstrap.png" alt="bootstrap portfolio">
       </div>
     </div>
