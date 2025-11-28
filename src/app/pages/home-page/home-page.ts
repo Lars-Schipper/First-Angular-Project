@@ -44,7 +44,7 @@ export class HomePage implements AfterViewInit {
       opacity: 0, 
       duration: 1,
       stagger: 0.1,
-      ease: 'power2.out'
+      ease: 'power2'
     });
 
     gsap.from('.fade-item-2', {
@@ -53,7 +53,7 @@ export class HomePage implements AfterViewInit {
       opacity: 0, 
       duration: 1,
       stagger: 0.1,
-      ease: 'power2.out'
+      ease: 'power2'
     });
 
     gsap.from('.fade-item-3', {
@@ -62,7 +62,7 @@ export class HomePage implements AfterViewInit {
       opacity: 0, 
       duration: 1,
       stagger: 0.1,
-      ease: 'power2.out'
+      ease: 'power2'
     });
 
     gsap.from(`.fade-item-4`, {
@@ -71,8 +71,10 @@ export class HomePage implements AfterViewInit {
       opacity: 0, 
       duration: 1,
       stagger: 0.1,
-      ease: 'power2.out'
+      ease: 'power2'
     });
 
+
+    
   }
 }
